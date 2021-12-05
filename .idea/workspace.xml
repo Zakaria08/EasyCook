@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fae4500-7bcf-4e29-ba2b-a9c74915f89e" name="Changes" comment="Untrack workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="03d98ad4-bf0d-4425-8e60-ddeb9cfc286c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -210,5 +209,19 @@
     <MESSAGE value="Merge branch 'main' into Zak&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/vcs.xml" />
     <MESSAGE value="delete a row in data" />
     <option name="LAST_COMMIT_MESSAGE" value="delete a row in data" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="8" key="MergeDialog" timestamp="1638709922438">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="0" y="8" key="MergeDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1638709922438" />
+    <state x="437" y="232" key="MultipleFileMergeDialog" timestamp="1638709886773">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="437" y="232" key="MultipleFileMergeDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1638709886773" />
+    <state x="587" y="184" key="git4idea.branch.GitSmartOperationDialog" timestamp="1638709907363">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="587" y="184" key="git4idea.branch.GitSmartOperationDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1638709907363" />
   </component>
 </project>
