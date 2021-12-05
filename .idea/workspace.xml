@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fae4500-7bcf-4e29-ba2b-a9c74915f89e" name="Changes" comment="Untrack workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>empty</find>
+      <find>remo</find>
+      <find>conta</find>
+      <find>equ</find>
+      <find>equals</find>
+      <find>node</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1gBpFPIRmYswdjFEZQu23FMWLIU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch.heg.ig.sda.datastructure.tree" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ch.heg.ig.sda.app.Main" />
+      <module name="EasyCook" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5624ade-1951-4430-a4cb-ccd1e9d8680e" name="Default Changelist" comment="" />
+      <created>1570779145235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570779145235</updated>
+      <workItem from="1570779148574" duration="974000" />
+      <workItem from="1570785870430" duration="988000" />
+      <workItem from="1571638949684" duration="795000" />
+      <workItem from="1571642134650" duration="1013000" />
+      <workItem from="1571646697003" duration="659000" />
+      <workItem from="1571647653799" duration="2294000" />
+      <workItem from="1571839697758" duration="328000" />
+      <workItem from="1571840232274" duration="287000" />
+      <workItem from="1571840680138" duration="1736000" />
+      <workItem from="1572444052765" duration="6533000" />
+      <workItem from="1572852355555" duration="6656000" />
+      <workItem from="1572970116440" duration="18782000" />
+      <workItem from="1573037194922" duration="12948000" />
+      <workItem from="1573057212888" duration="8606000" />
+      <workItem from="1573459821775" duration="1311000" />
+      <workItem from="1573633547072" duration="13823000" />
+      <workItem from="1573663750853" duration="7846000" />
+      <workItem from="1573808630638" duration="31000" />
+      <workItem from="1573923509350" duration="3329000" />
+      <workItem from="1573979704541" duration="6754000" />
+      <workItem from="1574175428346" duration="16243000" />
+      <workItem from="1574260362770" duration="11335000" />
+      <workItem from="1574324705226" duration="1927000" />
+      <workItem from="1574342788910" duration="2032000" />
+      <workItem from="1574525477901" duration="1446000" />
+      <workItem from="1574587051131" duration="4749000" />
+      <workItem from="1574700675986" duration="16000" />
+      <workItem from="1575271400460" duration="5102000" />
+      <workItem from="1575476811942" duration="4621000" />
+      <workItem from="1576671526946" duration="662000" />
+      <workItem from="1576673743382" duration="164000" />
+      <workItem from="1578306131913" duration="38000" />
+      <workItem from="1579244995931" duration="5192000" />
+      <workItem from="1579873994366" duration="3369000" />
+      <workItem from="1579941429329" duration="1289000" />
+      <workItem from="1580033712054" duration="1253000" />
+      <workItem from="1580129120175" duration="1460000" />
+      <workItem from="1580233345561" duration="146000" />
+      <workItem from="1597597737570" duration="197000" />
+      <workItem from="1597598730948" duration="618000" />
+      <workItem from="1603176593240" duration="8000" />
+      <workItem from="1604994207940" duration="120000" />
+      <workItem from="1605595734041" duration="203000" />
+      <workItem from="1636529161217" duration="617000" />
+      <workItem from="1637246057010" duration="6967000" />
+      <workItem from="1637857096733" duration="1633000" />
+      <workItem from="1637866007749" duration="291000" />
+      <workItem from="1637866795916" duration="1631000" />
+      <workItem from="1638460254470" duration="1374000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changer main">
+      <created>1637868386199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637868386199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'main' into Zak&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/vcs.xml">
+      <created>1638469443094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638469443094</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'main' into Zak&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/vcs.xml">
+      <created>1638469452915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638469452915</updated>
+    </task>
+    <task id="LOCAL-00004" summary="delete a row in data">
+      <created>1638707222840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638707222840</updated>
+    </task>
+    <task id="LOCAL-00005" summary="delete a row in data">
+      <created>1638707231188</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638707231188</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changer main" />
+    <MESSAGE value="Merge branch 'main' into Zak&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/vcs.xml" />
+    <MESSAGE value="delete a row in data" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete a row in data" />
+  </component>
+</project>
