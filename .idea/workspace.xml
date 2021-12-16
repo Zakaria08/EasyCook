@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ffaed97-d576-443f-b555-c0a91dcf476f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/FileDatabaseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/ParserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecetteConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesDatabaseLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Categorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Categorie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Etape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Etape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ingrédient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ingrédient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Recette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Recette.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ustensile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ustensile.java" afterDir="false" />
-    </list>
+    <list default="true" id="1ffaed97-d576-443f-b555-c0a91dcf476f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -176,7 +163,7 @@
       <workItem from="1639317867424" duration="1799000" />
       <workItem from="1639420921310" duration="18000" />
       <workItem from="1639492963064" duration="6000" />
-      <workItem from="1639677349123" duration="2306000" />
+      <workItem from="1639677349123" duration="2615000" />
     </task>
     <task id="LOCAL-00001" summary="Changer main">
       <created>1637868386199</created>
@@ -213,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638707231188</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="business + csv loader">
+      <created>1639679991972</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639679991972</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +229,8 @@
     <MESSAGE value="Changer main" />
     <MESSAGE value="Merge branch 'main' into Zak&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/vcs.xml" />
     <MESSAGE value="delete a row in data" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete a row in data" />
+    <MESSAGE value="business + csv loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="business + csv loader" />
   </component>
   <component name="WindowStateProjectService">
     <state x="510" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1639678405085">
@@ -247,6 +242,10 @@
       <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
     <state x="2393" y="-135" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1639318049737" />
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1639679989151">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1639679989151" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1639068614787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -259,10 +258,11 @@
       <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
     <state x="2518" y="146" key="MultipleFileMergeDialog/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1638709502940" />
-    <state x="2472" y="117" key="Vcs.Push.Dialog.v2" timestamp="1638709521945">
-      <screen x="1920" y="-135" width="1920" height="1040" />
+    <state x="368" y="146" key="Vcs.Push.Dialog.v2" timestamp="1639680024419">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2472" y="117" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1638709521945" />
+    <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1639680024419" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
