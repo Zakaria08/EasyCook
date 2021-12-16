@@ -1,6 +1,7 @@
 package ch.heg.ig.sda.app.business;
 
 public class Ingrédient {
+
     private String name;
 
     public String getName() {

@@ -25,4 +25,36 @@ public class Recette {
     public void setNom(String nom) {
         this.nom = nom;
     }
+
+    public Personne getAuteur() {
+        return auteur;
+    }
+
+    public void setAuteur(Personne auteur) {
+        this.auteur = auteur;
+    }
+
+    public Collection<Ingrédient> getIngrédients() {
+        return ingrédients;
+    }
+
+    public void setIngrédients(Collection<Ingrédient> ingrédients) {
+        this.ingrédients = ingrédients;
+    }
+
+    public Collection<Categorie> getCatégories() {
+        return catégories;
+    }
+
+    public void setCatégories(Collection<Categorie> catégories) {
+        this.catégories = catégories;
+    }
+
+    public Collection<Etape> getÉtapes() {
+        return étapes;
+    }
+
+    public void setÉtapes(Collection<Etape> étapes) {
+        this.étapes = étapes;
+    }
 }

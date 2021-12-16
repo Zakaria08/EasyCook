@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fae4500-7bcf-4e29-ba2b-a9c74915f89e" name="Changes" comment="Untrack workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1ffaed97-d576-443f-b555-c0a91dcf476f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/FileDatabaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/ParserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecetteConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesDatabaseLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Categorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Categorie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Etape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Etape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ingrédient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ingrédient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Recette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Recette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ustensile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ustensile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +61,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1gBpFPIRmYswdjFEZQu23FMWLIU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +73,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -71,6 +88,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch.heg.ig.sda.datastructure.tree" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DEV\EasyCook\src\ch\heg\ig\sda\app\io" />
     </key>
   </component>
   <component name="RunManager">
@@ -91,13 +111,13 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d5624ade-1951-4430-a4cb-ccd1e9d8680e" name="Default Changelist" comment="" />
+      <changelist id="1ffaed97-d576-443f-b555-c0a91dcf476f" name="Default Changelist" comment="" />
       <created>1570779145235</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -151,6 +171,12 @@
       <workItem from="1637866007749" duration="291000" />
       <workItem from="1637866795916" duration="1631000" />
       <workItem from="1638460254470" duration="1374000" />
+      <workItem from="1638869871964" duration="99000" />
+      <workItem from="1639068572465" duration="44000" />
+      <workItem from="1639317867424" duration="1799000" />
+      <workItem from="1639420921310" duration="18000" />
+      <workItem from="1639492963064" duration="6000" />
+      <workItem from="1639677349123" duration="2306000" />
     </task>
     <task id="LOCAL-00001" summary="Changer main">
       <created>1637868386199</created>
@@ -191,7 +217,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -210,5 +236,58 @@
     <MESSAGE value="Merge branch 'main' into Zak&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/vcs.xml" />
     <MESSAGE value="delete a row in data" />
     <option name="LAST_COMMIT_MESSAGE" value="delete a row in data" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="510" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1639678405085">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="2685" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1639318327283" />
+    <state x="510" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1639678405085" />
+    <state x="2393" y="-135" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1639318049737">
+      <screen x="1920" y="-135" width="1920" height="1040" />
+    </state>
+    <state x="2393" y="-135" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1639318049737" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1639068614787">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1639068614787" />
+    <state x="2360" y="95" key="MergeDialog" timestamp="1638709493065">
+      <screen x="1920" y="-135" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="95" key="MergeDialog/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1638709493065" />
+    <state x="2518" y="146" key="MultipleFileMergeDialog" timestamp="1638709502940">
+      <screen x="1920" y="-135" width="1920" height="1040" />
+    </state>
+    <state x="2518" y="146" key="MultipleFileMergeDialog/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1638709502940" />
+    <state x="2472" y="117" key="Vcs.Push.Dialog.v2" timestamp="1638709521945">
+      <screen x="1920" y="-135" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="117" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1638709521945" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

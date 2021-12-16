@@ -1,6 +1,7 @@
 package ch.heg.ig.sda.app.business;
 
 public class Categorie {
+
     private String nom;
 
     public Categorie(String nom) {
