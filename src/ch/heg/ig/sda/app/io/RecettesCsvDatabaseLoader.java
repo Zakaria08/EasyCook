@@ -27,7 +27,7 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
 
     private Collection<Recette> parseDocumentsDatabase(List<String[]> cleanedDatabase){
 
-        int reviewColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.REVIEW.getColumnName());
+        /*int reviewColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.REVIEW.getColumnName());
         int ratingColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.RATING.getColumnName());
         int notFoundColumnIndex = -1;
 
@@ -50,7 +50,7 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
 
             recettes.add(comment);
 
-        }
+        }*/
 
         return recettes;
     }
