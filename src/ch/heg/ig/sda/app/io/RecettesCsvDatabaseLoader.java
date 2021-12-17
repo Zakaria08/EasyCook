@@ -8,7 +8,6 @@ import java.util.Collection;
 import java.util.List;
 
 import static ch.heg.ig.sda.app.io.FileDatabaseUtils.findColumnIndex;
-import static ch.heg.ig.sda.app.io.FileDatabaseUtils.findColumnIndex;
 
 public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
 
@@ -27,8 +26,13 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
 
     private Collection<Recette> parseDocumentsDatabase(List<String[]> cleanedDatabase){
 
-        /*int reviewColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.REVIEW.getColumnName());
-        int ratingColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.RATING.getColumnName());
+        int recipeNameColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.RECIPENAME.getColumnName());
+        int autorFirstNameColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.AUTORFNAME.getColumnName());
+        int autorLastNameColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.AUTORLNAME.getColumnName());
+        int ingredientsColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.INGREDIENTS.getColumnName());
+        int categorieColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.CATEGORIES.getColumnName());
+        int stepsColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.STEPS.getColumnName());
+
         int notFoundColumnIndex = -1;
 
         int startIndex = 1; // Skip header
@@ -38,19 +42,50 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
 
         for (int i = startIndex; i < cleanedDatabase.size(); i++) {
 
-            Recette comment = new Recette();
+            Recette recette = new Recette();
 
-            if(reviewColumnIndex != notFoundColumnIndex) {
-                recette.setReview(cleanedDatabase.get(i)[reviewColumnIndex]);
+            if(recipeNameColumnIndex != notFoundColumnIndex) {
+                recette.setNom(cleanedDatabase.get(i)[recipeNameColumnIndex]);
             }
 
-            if(ratingColumnIndex != notFoundColumnIndex) {
-                recette.setRating(Integer.parseInt(cleanedDatabase.get(i)[ratingColumnIndex]));
+            if(autorFirstNameColumnIndex != notFoundColumnIndex && autorLastNameColumnIndex != notFoundColumnIndex) {
+                String tempPrenom = cleanedDatabase.get(i)[autorFirstNameColumnIndex];
+                String tempNom = cleanedDatabase.get(i)[autorLastNameColumnIndex];
+                recette.setAuteur(new Personne(tempNom,tempPrenom));
             }
 
-            recettes.add(comment);
+            if(ingredientsColumnIndex != notFoundColumnIndex) {
+                String[] ingredientsArray = cleanedDatabase.get(i)[ingredientsColumnIndex].split(","); // récupère tout le nom d'ingrédient dans un tableau
+                Collection<Ingrédient> tempCol = new ArrayList<Ingrédient>();
+                for (String ingredient : ingredientsArray){
+                        Ingrédient nouvelIngredient = new Ingrédient(ingredient);
+                        tempCol.add(nouvelIngredient);
+                }
+                recette.setIngrédients(tempCol);
+            }
+            if(categorieColumnIndex != notFoundColumnIndex) {
+                String[] categoriesArray = cleanedDatabase.get(i)[categorieColumnIndex].split(","); // récupère tout le nom d'ingrédient dans un tableau
+                Collection<Categorie> tempCol = new ArrayList<Categorie>();
+                for (String categorie : categoriesArray){
+                    Categorie nouvelleCategorie = new Categorie(categorie);
+                    tempCol.add(nouvelleCategorie);
+                }
+                recette.setCatégories(tempCol);
+            }
+            if(stepsColumnIndex != notFoundColumnIndex) {
+                String[] stepsArray = cleanedDatabase.get(i)[stepsColumnIndex].split(","); // récupère tout le nom d'ingrédient dans un tableau
+                Collection<Etape> tempCol = new ArrayList<Etape>();
+                for (String etape : stepsArray){
+                    Etape nouvelleEtape = new Etape(etape);
+                    tempCol.add(nouvelleEtape);
+                }
+                recette.setEtapes(tempCol);
+            }
 
-        }*/
+
+            recettes.add(recette);
+
+        }
 
         return recettes;
     }

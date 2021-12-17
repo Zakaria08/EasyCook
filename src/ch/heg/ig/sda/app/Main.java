@@ -6,6 +6,8 @@
 package ch.heg.ig.sda.app;
 
 
+import ch.heg.ig.sda.app.business.EasyCook;
+import ch.heg.ig.sda.app.business.IEasyCook;
 
 public class Main {
 
@@ -16,8 +18,15 @@ public class Main {
      */
 
     public static void main(String[] args) {
+        String filepath = "C:\\DEV\\EasyCook\\data\\EasyCook (1).csv";
+
+        IEasyCook app = new EasyCook();
+
+        app.loadRecipes(filepath);
+        app.printRecipes();
 
        System.out.print("Hello cte équipe");
+
     }
 }
 

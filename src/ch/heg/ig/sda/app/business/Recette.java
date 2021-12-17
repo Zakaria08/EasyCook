@@ -17,6 +17,9 @@ public class Recette {
         this.catégories = catégories;
         this.étapes = étapes;
     }
+    public Recette(){
+
+    }
 
     public String getNom() {
         return nom;
@@ -54,7 +57,18 @@ public class Recette {
         return étapes;
     }
 
-    public void setÉtapes(Collection<Etape> étapes) {
+    public void setEtapes(Collection<Etape> étapes) {
         this.étapes = étapes;
+    }
+
+    @Override
+    public String toString() {
+        return "Recette{" +
+                "nom='" + nom + '\'' +
+                ", auteur=" + auteur +
+                ", ingrédients=" + ingrédients +
+                ", catégories=" + catégories +
+                ", étapes=" + étapes +
+                '}';
     }
 }

@@ -2,8 +2,12 @@ package ch.heg.ig.sda.app.io;
 
 public enum RecetteConstant {
 
-    REVIEW( "Review"),
-    RATING( "Rating");
+    RECIPENAME( "NomRecette"),
+    AUTORLNAME( "NomPersonne"),
+    AUTORFNAME( "PrenomPersonne"),
+    INGREDIENTS( "NomIngredient"),
+    CATEGORIES( "nomCategorie"),
+    STEPS( "nomEtape");
 
     private int columnIndex;
     private final String columnName;

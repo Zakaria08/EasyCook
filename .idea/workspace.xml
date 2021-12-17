@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ffaed97-d576-443f-b555-c0a91dcf476f" name="Default Changelist" comment="" />
+    <list default="true" id="1ffaed97-d576-443f-b555-c0a91dcf476f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/EasyCook (1).csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Etape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Etape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/IEasyCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/IEasyCook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ingrédient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ingrédient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Recette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Recette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecetteConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecetteConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,16 +32,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>empty</find>
-      <find>remo</find>
-      <find>conta</find>
-      <find>equ</find>
-      <find>equals</find>
-      <find>node</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -73,6 +75,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\DEV\EasyCook\data" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch.heg.ig.sda.datastructure.tree" />
     </key>
@@ -164,7 +169,9 @@
       <workItem from="1639317867424" duration="1799000" />
       <workItem from="1639420921310" duration="18000" />
       <workItem from="1639492963064" duration="6000" />
-      <workItem from="1639677349123" duration="2706000" />
+      <workItem from="1639677349123" duration="4803000" />
+      <workItem from="1639745867690" duration="1931000" />
+      <workItem from="1639747932716" duration="6213000" />
     </task>
     <task id="LOCAL-00001" summary="Changer main">
       <created>1637868386199</created>
@@ -222,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639680233462</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="RecettesCsvDatabaseLoader encore à modifier.&#10;Base classe business">
+      <created>1639680342226</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639680342226</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,26 +260,61 @@
     <MESSAGE value="delete a row in data" />
     <MESSAGE value="business + csv loader" />
     <MESSAGE value="univocity-parsers-2.9.1.jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="univocity-parsers-2.9.1.jar" />
+    <MESSAGE value="RecettesCsvDatabaseLoader encore à modifier.&#10;Base classe business" />
+    <option name="LAST_COMMIT_MESSAGE" value="RecettesCsvDatabaseLoader encore à modifier.&#10;Base classe business" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1639678405085">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2685" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1639752046370">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1639318327283" />
+    <state x="2685" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639752046370" />
     <state x="510" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1639678405085" />
-    <state x="2393" y="-135" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1639318049737">
-      <screen x="1920" y="-135" width="1920" height="1040" />
+    <state x="2393" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1639750781173">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2393" y="-135" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1639318049737" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1639680231217">
+    <state x="2393" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639750781173" />
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1639680340077">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1639680231217" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1639680340077" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1639680252092">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1639680252092" />
+    <state width="1877" height="439" key="GridCell.Tab.0.bottom" timestamp="1639754080693">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="439" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639754080693" />
+    <state width="1877" height="439" key="GridCell.Tab.0.center" timestamp="1639754080693">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="439" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639754080693" />
+    <state width="1877" height="439" key="GridCell.Tab.0.left" timestamp="1639754080692">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="439" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639754080692" />
+    <state width="1877" height="439" key="GridCell.Tab.0.right" timestamp="1639754080693">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="439" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639754080693" />
+    <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1639753987244">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639753987244" />
+    <state width="1877" height="384" key="GridCell.Tab.1.center" timestamp="1639753987244">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639753987244" />
+    <state width="1877" height="384" key="GridCell.Tab.1.left" timestamp="1639753987244">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639753987244" />
+    <state width="1877" height="384" key="GridCell.Tab.1.right" timestamp="1639753987244">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639753987244" />
     <state x="2360" y="95" key="MergeDialog" timestamp="1638709493065">
       <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
@@ -278,36 +327,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1639680257525" />
-    <state x="368" y="146" key="Vcs.Push.Dialog.v2" timestamp="1639680024419">
+    <state x="368" y="146" key="Vcs.Push.Dialog.v2" timestamp="1639680374656">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2472" y="117" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1638709521945" />
-    <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1639680024419" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1639680374656" />
+    <state x="0" y="0" width="1294" height="737" key="dock-window-1" timestamp="1639748521060">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="1294" height="737" key="dock-window-1/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639748521060" />
+    <state x="-6" y="-22" width="1294" height="580" maximized="true" key="dock-window-2" timestamp="1639752753746">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-6" y="-22" width="1294" height="580" maximized="true" key="dock-window-2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639752753746" />
   </component>
 </project>

@@ -15,4 +15,8 @@ public class Ingrédient {
     public Ingrédient(String name) {
         this.name = name;
     }
+
+    public Ingrédient(){
+
+    }
 }

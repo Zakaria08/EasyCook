@@ -6,10 +6,8 @@ public class Etape {
 
     private String name;
 
-    private Collection<Ustensile> ustensiles;
 
-    public Etape(String name, Collection<Ustensile> ustensiles) {
+    public Etape(String name) {
         this.name = name;
-        this.ustensiles = ustensiles;
     }
 }
