@@ -3,9 +3,7 @@ package ch.heg.ig.sda.app.io;
 import ch.heg.ig.sda.app.business.Recette;
 import ch.heg.ig.sda.app.business.*;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 import static ch.heg.ig.sda.app.io.FileDatabaseUtils.findColumnIndex;
 
@@ -17,6 +15,7 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
 
     public void process() {
         this.recettes = loadCleanDatabase(filepath);
+        this.categories = loadCleanCatDatabase(filepath);
     }
 
     private Collection<Recette> loadCleanDatabase(final String filename){
@@ -25,6 +24,8 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
     }
 
     private Collection<Recette> parseDocumentsDatabase(List<String[]> cleanedDatabase){
+
+        long elapsedTimeLoadArraylist = 0;
 
         int recipeNameColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.RECIPENAME.getColumnName());
         int autorFirstNameColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.AUTORFNAME.getColumnName());
@@ -56,38 +57,59 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
 
             if(ingredientsColumnIndex != notFoundColumnIndex) {
                 String[] ingredientsArray = cleanedDatabase.get(i)[ingredientsColumnIndex].split(","); // récupère tout le nom d'ingrédient dans un tableau
-                Collection<Ingrédient> tempCol = new ArrayList<Ingrédient>();
+                LinkedList<Ingredient> tempCol = new LinkedList<>();
                 for (String ingredient : ingredientsArray){
-                        Ingrédient nouvelIngredient = new Ingrédient(ingredient);
+                        Ingredient nouvelIngredient = new Ingredient(ingredient);
                         tempCol.add(nouvelIngredient);
                 }
-                recette.setIngrédients(tempCol);
+                recette.setIngredients(tempCol);
             }
             if(categorieColumnIndex != notFoundColumnIndex) {
-                String[] categoriesArray = cleanedDatabase.get(i)[categorieColumnIndex].split(","); // récupère tout le nom d'ingrédient dans un tableau
-                Collection<Categorie> tempCol = new ArrayList<Categorie>();
-                for (String categorie : categoriesArray){
-                    Categorie nouvelleCategorie = new Categorie(categorie);
-                    tempCol.add(nouvelleCategorie);
-                }
-                recette.setCatégories(tempCol);
+                Categorie catTemp = new Categorie(cleanedDatabase.get(i)[categorieColumnIndex]);
+                recette.setCategorie(catTemp);
             }
             if(stepsColumnIndex != notFoundColumnIndex) {
-                String[] stepsArray = cleanedDatabase.get(i)[stepsColumnIndex].split(","); // récupère tout le nom d'ingrédient dans un tableau
-                Collection<Etape> tempCol = new ArrayList<Etape>();
+                String[] stepsArray = cleanedDatabase.get(i)[stepsColumnIndex].split(","); // récupère toutes les étapes dans un tableau
+                LinkedList<Etape> tempCol = new LinkedList<Etape>();
                 for (String etape : stepsArray){
                     Etape nouvelleEtape = new Etape(etape);
                     tempCol.add(nouvelleEtape);
                 }
                 recette.setEtapes(tempCol);
             }
-
-
             recettes.add(recette);
+        }
+        return recettes;
+    }
+
+    private Set<Categorie> loadCleanCatDatabase(final String filename){
+        List<String[]> cleanedDatabase = ParserUtils.parseCSV(filename);
+        return parseDocumentsCatDatabase(cleanedDatabase);
+    }
+    private Set<Categorie> parseDocumentsCatDatabase(List<String[]> cleanedDatabase){
+
+        long elapsedTimeLoadArraylist = 0;
+
+        int categorieColumnIndex = findColumnIndex(cleanedDatabase.get(0), RecetteConstant.CATEGORIES.getColumnName());
+
+
+        int notFoundColumnIndex = -1;
+
+        int startIndex = 1; // Skip header
+
+        Set<Categorie> categories = new HashSet<Categorie>();
+
+        for (int i = startIndex; i < cleanedDatabase.size(); i++) {
+
+
+            if(categorieColumnIndex != notFoundColumnIndex) {
+                Categorie catTemp = new Categorie(cleanedDatabase.get(i)[categorieColumnIndex]);
+                //checker si la cat existe déjà
+                categories.add(catTemp);
+            }
 
         }
-
-        return recettes;
+        return categories;
     }
 
     /**

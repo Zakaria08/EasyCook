@@ -5,11 +5,13 @@ import java.util.Collection;
 public interface IEasyCook {
     void loadRecipes(String filepath);
     void printRecipes();
+    void printCategories();
     void add(Recette recette);
-    Recette remove();
-    Collection<Recette> getRecette(String nom);
-    Collection<Recette> getRecette(Categorie categorie);
-    Collection<Recette> getRecette(Personne personne);
-    Collection<Recette> getRecette(Ingrédient ingrédient);
+    Recette remove(Recette recette);
+    Collection<Recette> getRecette();
+    Collection<Recette> getRecetteByName(String nom);
+    Collection<Recette> getRecetteByCategorie(Categorie categorie);
+    Collection<Recette> getRecetteByPerson(Personne personne);
+    Collection<Recette> getRecette(Ingredient ingredient);
 
 }

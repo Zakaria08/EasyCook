@@ -6,8 +6,12 @@
 package ch.heg.ig.sda.app;
 
 
-import ch.heg.ig.sda.app.business.EasyCook;
-import ch.heg.ig.sda.app.business.IEasyCook;
+import ch.heg.ig.sda.app.business.*;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
 
@@ -20,12 +24,27 @@ public class Main {
     public static void main(String[] args) {
         String filepath = "C:\\DEV\\EasyCook\\data\\EasyCook (1).csv";
 
-        IEasyCook app = new EasyCook();
+        IEasyCook app = new EasyCookList();
 
         app.loadRecipes(filepath);
         app.printRecipes();
+        System.out.println("recette chargée");
+        app.printCategories();
+        System.out.println("Toutes les catégories");
 
-       System.out.print("Hello cte équipe");
+
+        //Recherche
+        System.out.println("recette par personne");
+        Personne temp = new Personne("Zemmour","Eric");
+
+        Collection<Recette> tempColByName = app.getRecetteByPerson(temp);
+
+        System.out.println(tempColByName.toString());
+        /*Set<Recette>testSet = new HashSet<Recette>();
+        Collection<Recette> testColl = app.getRecette()
+        Ingredient testIngr = new Ingredient("tomates");
+        testCollection.contains(testIngr);*/
+
 
     }
 }

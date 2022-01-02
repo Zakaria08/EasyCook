@@ -1,21 +1,22 @@
 package ch.heg.ig.sda.app.business;
 
 import java.util.Collection;
+import java.util.LinkedList;
 
 public class Recette {
 
     private String nom;
     private Personne auteur;
-    private Collection<Ingrédient> ingrédients;
-    private Collection<Categorie> catégories;
-    private Collection<Etape> étapes;
+    private LinkedList<Ingredient> ingredients;
+    private Categorie categorie;
+    private LinkedList<Etape> etapes;
 
-    public Recette(String nom, Personne auteur, Collection<Ingrédient> ingrédients, Collection<Categorie> catégories, Collection<Etape> étapes) {
+    public Recette(String nom, Personne auteur, LinkedList<Ingredient> ingredients, Categorie categorie, LinkedList<Etape> etapes) {
         this.nom = nom;
         this.auteur = auteur;
-        this.ingrédients = ingrédients;
-        this.catégories = catégories;
-        this.étapes = étapes;
+        this.ingredients = ingredients;
+        this.categorie = categorie;
+        this.etapes = etapes;
     }
     public Recette(){
 
@@ -37,38 +38,38 @@ public class Recette {
         this.auteur = auteur;
     }
 
-    public Collection<Ingrédient> getIngrédients() {
-        return ingrédients;
+    public Collection<Ingredient> getIngredients() {
+        return ingredients;
     }
 
-    public void setIngrédients(Collection<Ingrédient> ingrédients) {
-        this.ingrédients = ingrédients;
+    public void setIngredients(LinkedList<Ingredient> ingredients) {
+        this.ingredients = ingredients;
     }
 
-    public Collection<Categorie> getCatégories() {
-        return catégories;
+    public Categorie getCategorie() {
+        return categorie;
     }
 
-    public void setCatégories(Collection<Categorie> catégories) {
-        this.catégories = catégories;
+    public void setCategorie(Categorie categorie) {
+        this.categorie = categorie;
     }
 
-    public Collection<Etape> getÉtapes() {
-        return étapes;
+    public LinkedList<Etape> getEtapes() {
+        return etapes;
     }
 
-    public void setEtapes(Collection<Etape> étapes) {
-        this.étapes = étapes;
+    public void setEtapes(LinkedList<Etape> etapes) {
+        this.etapes = etapes;
     }
 
     @Override
     public String toString() {
         return "Recette{" +
-                "nom='" + nom + '\'' +
-                ", auteur=" + auteur +
-                ", ingrédients=" + ingrédients +
-                ", catégories=" + catégories +
-                ", étapes=" + étapes +
+                "nom= " + nom + '\'' +
+                ", auteur= " + auteur +
+                ", ingrédients= " + ingredients +
+                ", catégorie= " + categorie +
+                ", étapes= " + etapes +
                 '}';
     }
 }

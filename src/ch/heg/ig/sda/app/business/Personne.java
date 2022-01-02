@@ -1,15 +1,13 @@
 package ch.heg.ig.sda.app.business;
 
-import java.util.Date;
-
 public class Personne {
 
     private String nom;
-    private String prénom;
+    private String prenom;
 
-    public Personne(String nom, String prénom) {
+    public Personne(String nom, String prenom) {
         this.nom = nom;
-        this.prénom = prénom;
+        this.prenom = prenom;
     }
 
     public String getNom() {
@@ -20,12 +18,18 @@ public class Personne {
         this.nom = nom;
     }
 
-    public String getPrénom() {
-        return prénom;
+    public String getPrenom() {
+        return prenom;
     }
 
-    public void setPrénom(String prénom) {
-        this.prénom = prénom;
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
     }
 
+    @Override
+    public String toString() {
+        return  " nom='" + nom + '\'' +
+                ", prénom='" + prenom;
+
+    }
 }

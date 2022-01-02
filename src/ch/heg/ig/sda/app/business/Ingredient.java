@@ -1,16 +1,8 @@
 package ch.heg.ig.sda.app.business;
 
-import java.util.Collection;
-
-public class Categorie {
+public class Ingredient {
 
     private String nom;
-
-    private Collection<Recette> recettes;
-
-    public Categorie(String nom) {
-        this.nom = nom;
-    }
 
     public String getNom() {
         return nom;
@@ -20,9 +12,13 @@ public class Categorie {
         this.nom = nom;
     }
 
+    public Ingredient(String nom) {
+        this.nom = nom;
+    }
+
+
     @Override
     public String toString() {
         return this.nom;
-
     }
 }

@@ -1,13 +1,16 @@
 package ch.heg.ig.sda.app.business;
 
-import java.util.Collection;
-
 public class Etape {
 
-    private String name;
+    private String description;
 
 
-    public Etape(String name) {
-        this.name = name;
+    public Etape(String description) {
+        this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return this.description;
     }
 }
