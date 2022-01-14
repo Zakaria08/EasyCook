@@ -2,14 +2,11 @@ package ch.heg.ig.sda.app.business;
 
 import ch.heg.ig.sda.app.io.RecettesCsvDatabaseLoader;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class EasyCookMap extends EasyCook {
 
-    private Map<String,Recette> recettes;
+    private Map<String,Recette> recettes = new HashMap<>();
 
     @Override
     public void printRecipes() {
@@ -32,16 +29,23 @@ public class EasyCookMap extends EasyCook {
 
     @Override
     public void add(Recette recette) {
-
+        recettes.put(recette.getNom(),recette);
     }
+
     @Override
-    public Recette remove(Recette recette) {
-        return null;
+    public Boolean removeRecette(Recette recette) {
+        if(recettes.containsKey(recette.getNom())){
+            return recettes.remove(recette.getNom(),recette);
+        }
+        else{
+            System.out.println("Recette inexistante");
+            return null;
+        }
     }
 
     @Override
     public Collection<Recette> getRecette() {
-        return null; //this.recettes;
+        return recettes.values();
     }
 
     @Override
@@ -57,19 +61,28 @@ public class EasyCookMap extends EasyCook {
         }
     }
 
-    @Override
-    public Collection<Recette> getRecetteByCategorie(Categorie categorie) {
-        return null;
-    }
 
     @Override
     public Collection<Recette> getRecetteByPerson(Personne personne) {
-        return null;
+        Collection<Recette> tempCol = new LinkedList<>();
+        for (Recette recette:recettes.values()) {
+            if (recette.getAuteur().getNom().equals(personne.getNom()) && recette.getAuteur().getPrenom().equals(personne.getPrenom())){ // comparaison nom/prénom   n
+                tempCol.add(recette);
+            }
+        }
+        return tempCol;
     }
 
     @Override
-    public Collection<Recette> getRecette(Ingredient ingredient) {
-
-        return null;
+    public Collection<Recette> getRecetteByIngredient(Ingredient ingredient) {
+        Collection<Recette> tempCol = new LinkedList<>();
+        for (Recette recette:recettes.values()) {
+            for (Ingredient var:recette.getIngredients()) {
+                if (var.getNom().equals(ingredient.getNom()) ){
+                    tempCol.add(recette);
+                }
+            }
+        }
+        return tempCol;
     }
 }

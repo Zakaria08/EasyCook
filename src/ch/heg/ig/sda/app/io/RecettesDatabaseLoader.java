@@ -4,6 +4,7 @@ import ch.heg.ig.sda.app.business.Categorie;
 import ch.heg.ig.sda.app.business.Recette;
 
 import java.util.Collection;
+import java.util.Map;
 import java.util.Set;
 
 public abstract class RecettesDatabaseLoader {
@@ -11,7 +12,7 @@ public abstract class RecettesDatabaseLoader {
     protected String filepath;
 
     protected Collection<Recette> recettes;
-    protected Set<Categorie> categories;
+    protected Map<String,Categorie> categories;
 
     public RecettesDatabaseLoader(String filepath) {
         this.filepath = filepath;
@@ -22,7 +23,7 @@ public abstract class RecettesDatabaseLoader {
     }
 
     public Collection<Recette> getRecettes() {return recettes;}
-    public Set<Categorie> getCategories() { return categories;}
+    public Map<String,Categorie> getCategories() { return categories;}
 
 
 }

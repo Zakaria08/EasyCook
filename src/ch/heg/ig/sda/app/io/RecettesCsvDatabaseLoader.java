@@ -1,6 +1,5 @@
 package ch.heg.ig.sda.app.io;
 
-import ch.heg.ig.sda.app.business.Recette;
 import ch.heg.ig.sda.app.business.*;
 
 import java.util.*;
@@ -14,8 +13,8 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
     }
 
     public void process() {
-        this.recettes = loadCleanDatabase(filepath);
         this.categories = loadCleanCatDatabase(filepath);
+        this.recettes = loadCleanDatabase(filepath);
     }
 
     private Collection<Recette> loadCleanDatabase(final String filename){
@@ -65,8 +64,7 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
                 recette.setIngredients(tempCol);
             }
             if(categorieColumnIndex != notFoundColumnIndex) {
-                Categorie catTemp = new Categorie(cleanedDatabase.get(i)[categorieColumnIndex]);
-                recette.setCategorie(catTemp);
+                recette.setCategorie(this.categories.get(cleanedDatabase.get(i)[categorieColumnIndex]));
             }
             if(stepsColumnIndex != notFoundColumnIndex) {
                 String[] stepsArray = cleanedDatabase.get(i)[stepsColumnIndex].split(","); // récupère toutes les étapes dans un tableau
@@ -78,15 +76,16 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
                 recette.setEtapes(tempCol);
             }
             recettes.add(recette);
+            recette.getCategorie().addRecipe(recette);
         }
         return recettes;
     }
 
-    private Set<Categorie> loadCleanCatDatabase(final String filename){
+    private Map<String,Categorie> loadCleanCatDatabase(final String filename){
         List<String[]> cleanedDatabase = ParserUtils.parseCSV(filename);
         return parseDocumentsCatDatabase(cleanedDatabase);
     }
-    private Set<Categorie> parseDocumentsCatDatabase(List<String[]> cleanedDatabase){
+    private Map<String,Categorie> parseDocumentsCatDatabase(List<String[]> cleanedDatabase){
 
         long elapsedTimeLoadArraylist = 0;
 
@@ -97,15 +96,13 @@ public class RecettesCsvDatabaseLoader extends RecettesDatabaseLoader {
 
         int startIndex = 1; // Skip header
 
-        Set<Categorie> categories = new HashSet<Categorie>();
+        Map<String,Categorie> categories = new HashMap<>();
 
         for (int i = startIndex; i < cleanedDatabase.size(); i++) {
 
-
             if(categorieColumnIndex != notFoundColumnIndex) {
                 Categorie catTemp = new Categorie(cleanedDatabase.get(i)[categorieColumnIndex]);
-                //checker si la cat existe déjà
-                categories.add(catTemp);
+                categories.put(catTemp.getNom(),catTemp);
             }
 
         }
