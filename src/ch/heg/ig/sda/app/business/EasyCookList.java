@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class EasyCookList extends EasyCook {
 
-    private List<Recette> recettes;
+    private List<Recette> recettes = new ArrayList<>();
 
     @Override
     public void printRecipes() {
@@ -31,15 +31,22 @@ public class EasyCookList extends EasyCook {
 
     @Override
     public void add(Recette recette) {
-
-    }
-    @Override
-    public Recette remove(Recette recette) {
-        return null;
+        recettes.add(recette);
     }
 
     @Override
-    public List<Recette> getRecette() {
+    public Boolean removeRecette(Recette recette) {
+        if(recettes.contains(recette)){
+            return recettes.remove(recette);
+        }
+        else{
+            System.out.println("Recette inexistante");
+            return null;
+        }
+    }
+
+    @Override
+    public Collection<Recette> getRecette() {
         return this.recettes;
     }
 
@@ -53,11 +60,6 @@ public class EasyCookList extends EasyCook {
     }
 
     @Override
-    public Collection<Recette> getRecetteByCategorie(Categorie categorie) {
-        return null;
-    }
-
-    @Override
     public Collection<Recette> getRecetteByPerson(Personne personne) {
         Collection<Recette> tempCol = recettes.stream()
                 .filter(recette -> recette.getAuteur().getNom().equals(personne.getNom()) &&
@@ -67,8 +69,12 @@ public class EasyCookList extends EasyCook {
     }
 
     @Override
-    public Collection<Recette> getRecette(Ingredient ingredient) {
+    public Collection<Recette> getRecetteByIngredient(Ingredient ingredient) {
 
-        return null;
+        Collection<Recette> tempCol = recettes.stream()
+                .filter(recette -> recette.getIngredients().contains(ingredient))
+                .collect(Collectors.toList());
+        return tempCol;
     }
+
 }

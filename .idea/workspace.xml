@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ffaed97-d576-443f-b555-c0a91dcf476f" name="Default Changelist" comment="Ajout d'une collection de catégories pour la classe EasyCook&#10;&#10;Modification loadRecipes().&#10;&#10;Modif loader pour les collections.">
-      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCookList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCookMap.java" afterDir="false" />
+    <list default="true" id="1ffaed97-d576-443f-b555-c0a91dcf476f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/EasyCook (1).csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/EasyCook (1).csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CompteUsers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/EasyCook (1).csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/EasyCook.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Categorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Categorie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCookList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCookMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/EasyCookMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Etape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Etape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/IEasyCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/IEasyCook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ingrédient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ingredient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Personne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Recette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Recette.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/business/Ustensile.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesCsvDatabaseLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesDatabaseLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/heg/ig/sda/app/io/RecettesDatabaseLoader.java" afterDir="false" />
     </list>
@@ -44,6 +44,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -66,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/univocity-parsers-2.9.1.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive - HESSO/Bureau/HEG-ARC/modules/SEMESTRE-3/STRUCTURE DE DONNEES/Corriges/SDA_Serie14_COR/SDA_Serie14" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -79,15 +80,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\DEV\EasyCook\data" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DEV\EasyCook\lib" />
+      <recent name="C:\DEV\EasyCook\src\ch\heg\ig\sda\app\io" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch.heg.ig.sda.datastructure.tree" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\DEV\EasyCook\lib" />
-      <recent name="C:\DEV\EasyCook\src\ch\heg\ig\sda\app\io" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\DEV\EasyCook\data" />
     </key>
   </component>
   <component name="RunManager">
@@ -108,7 +109,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -185,7 +186,13 @@
       <workItem from="1640685166806" duration="5929000" />
       <workItem from="1640866871047" duration="30000" />
       <workItem from="1640955751532" duration="9845000" />
-      <workItem from="1641138195819" duration="5784000" />
+      <workItem from="1641138195819" duration="10740000" />
+      <workItem from="1641302600402" duration="14891000" />
+      <workItem from="1641384744750" duration="7357000" />
+      <workItem from="1641544214174" duration="11635000" />
+      <workItem from="1641566323611" duration="2261000" />
+      <workItem from="1642092560458" duration="5170000" />
+      <workItem from="1642148129279" duration="9587000" />
     </task>
     <task id="LOCAL-00001" summary="Changer main">
       <created>1637868386199</created>
@@ -257,7 +264,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639754204085</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ajout d'une collection de catégories pour la classe EasyCook&#10;&#10;Modification loadRecipes().&#10;&#10;Modif loader pour les collections.">
+      <created>1641144724778</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641144724778</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Mise à jour">
+      <created>1642169050461</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642169050461</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Mise à jour">
+      <created>1642169058363</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642169058363</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,14 +312,15 @@
     <MESSAGE value="RecettesCsvDatabaseLoader encore à modifier.&#10;Base classe business" />
     <MESSAGE value="Loader de donnée OK&#10;Modifier les toString() !" />
     <MESSAGE value="Ajout d'une collection de catégories pour la classe EasyCook&#10;&#10;Modification loadRecipes().&#10;&#10;Modif loader pour les collections." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'une collection de catégories pour la classe EasyCook&#10;&#10;Modification loadRecipes().&#10;&#10;Modif loader pour les collections." />
+    <MESSAGE value="Mise à jour" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1641143893544">
-      <screen x="1920" y="-135" width="1920" height="1040" />
+    <state x="2685" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1641388814067">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641143893544" />
-    <state x="2685" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640268971810" />
+    <state x="2685" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641315467226" />
+    <state x="2685" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1641388814067" />
     <state x="510" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1639678405085" />
     <state x="2393" y="-135" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1641141416376">
       <screen x="1920" y="-135" width="1920" height="1040" />
@@ -303,63 +332,67 @@
       <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
     <state x="2610" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1640957999513" />
-    <state x="2316" y="-135" key="CommitChangelistDialog2" timestamp="1641144665257">
+    <state x="2316" y="-135" key="CommitChangelistDialog2" timestamp="1641144723214">
       <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
-    <state x="2316" y="-135" key="CommitChangelistDialog2/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641144665257" />
+    <state x="2316" y="-135" key="CommitChangelistDialog2/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641144723214" />
     <state x="2316" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639754201974" />
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1639680340077" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1639680252092">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1642093270319">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1639680252092" />
-    <state width="1877" height="376" key="GridCell.Tab.0.bottom" timestamp="1641144665373">
-      <screen x="1920" y="-135" width="1920" height="1040" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1642093270319" />
+    <state width="1877" height="447" key="GridCell.Tab.0.bottom" timestamp="1642168533482">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="568" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-135.1920.1040@0.0.1280.680" timestamp="1640766636594" />
-    <state width="1877" height="376" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641144665373" />
-    <state width="1877" height="704" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640271534548" />
-    <state width="1237" height="112" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1640287221044" />
-    <state width="1877" height="376" key="GridCell.Tab.0.center" timestamp="1641144665373">
-      <screen x="1920" y="-135" width="1920" height="1040" />
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641324510461" />
+    <state width="1237" height="266" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1642157832475" />
+    <state width="1877" height="447" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642168533482" />
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1642101387154" />
+    <state width="1877" height="447" key="GridCell.Tab.0.center" timestamp="1642168533482">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="568" key="GridCell.Tab.0.center/0.0.1280.680/1920.-135.1920.1040@0.0.1280.680" timestamp="1640766636594" />
-    <state width="1877" height="376" key="GridCell.Tab.0.center/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641144665373" />
-    <state width="1877" height="704" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640271534548" />
-    <state width="1237" height="112" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1640287221043" />
-    <state width="1877" height="376" key="GridCell.Tab.0.left" timestamp="1641144665373">
-      <screen x="1920" y="-135" width="1920" height="1040" />
+    <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641324510461" />
+    <state width="1237" height="266" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1642157832475" />
+    <state width="1877" height="447" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642168533482" />
+    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1642101387153" />
+    <state width="1877" height="447" key="GridCell.Tab.0.left" timestamp="1642168533482">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="568" key="GridCell.Tab.0.left/0.0.1280.680/1920.-135.1920.1040@0.0.1280.680" timestamp="1640766636594" />
-    <state width="1877" height="376" key="GridCell.Tab.0.left/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641144665373" />
-    <state width="1877" height="704" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640271534548" />
-    <state width="1237" height="112" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1640287221043" />
-    <state width="1877" height="376" key="GridCell.Tab.0.right" timestamp="1641144665373">
-      <screen x="1920" y="-135" width="1920" height="1040" />
+    <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641324510461" />
+    <state width="1237" height="266" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1642157832475" />
+    <state width="1877" height="447" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642168533482" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1642101387153" />
+    <state width="1877" height="447" key="GridCell.Tab.0.right" timestamp="1642168533482">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="568" key="GridCell.Tab.0.right/0.0.1280.680/1920.-135.1920.1040@0.0.1280.680" timestamp="1640766636594" />
-    <state width="1877" height="376" key="GridCell.Tab.0.right/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641144665373" />
-    <state width="1877" height="704" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640271534548" />
-    <state width="1237" height="112" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1640287221043" />
-    <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1640966893163">
+    <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641324510461" />
+    <state width="1237" height="266" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1642157832475" />
+    <state width="1877" height="447" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1642168533482" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1642101387153" />
+    <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1641324510461">
       <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1640966893163" />
+    <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641324510461" />
     <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640012022572" />
-    <state width="1877" height="384" key="GridCell.Tab.1.center" timestamp="1640966893163">
+    <state width="1877" height="384" key="GridCell.Tab.1.center" timestamp="1641324510461">
       <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1640966893163" />
+    <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641324510461" />
     <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640012022572" />
-    <state width="1877" height="384" key="GridCell.Tab.1.left" timestamp="1640966893162">
+    <state width="1877" height="384" key="GridCell.Tab.1.left" timestamp="1641324510461">
       <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1640966893162" />
+    <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641324510461" />
     <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640012022571" />
-    <state width="1877" height="384" key="GridCell.Tab.1.right" timestamp="1640966893163">
+    <state width="1877" height="384" key="GridCell.Tab.1.right" timestamp="1641324510461">
       <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
-    <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1640966893163" />
+    <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641324510461" />
     <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640012022572" />
     <state x="2360" y="95" key="MergeDialog" timestamp="1638709493065">
       <screen x="1920" y="-135" width="1920" height="1040" />
@@ -369,14 +402,15 @@
       <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
     <state x="2518" y="146" key="MultipleFileMergeDialog/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1638709502940" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1639680257525">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2102" y="-135" key="SettingsEditor" timestamp="1641314867112">
+      <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
+    <state x="2102" y="-135" key="SettingsEditor/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641314867112" />
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1639680257525" />
-    <state x="2472" y="223" key="Vcs.Push.Dialog.v2" timestamp="1639754235140">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2472" y="117" key="Vcs.Push.Dialog.v2" timestamp="1641144793879">
+      <screen x="1920" y="-135" width="1920" height="1040" />
     </state>
-    <state x="2472" y="117" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1638709521945" />
+    <state x="2472" y="117" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641144793879" />
     <state x="2472" y="223" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639754235140" />
     <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1639680374656" />
     <state x="1793" y="-73" width="1941" height="1128" key="dock-window-1" timestamp="1640958819248">
@@ -388,6 +422,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-6" y="-22" width="1294" height="580" maximized="true" key="dock-window-2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639752753746" />
+    <state x="2585" y="-16" width="589" height="801" key="find.popup" timestamp="1641314915733">
+      <screen x="1920" y="-135" width="1920" height="1040" />
+    </state>
+    <state x="2585" y="-16" width="589" height="801" key="find.popup/0.0.1280.680/1920.-135.1920.1040@1920.-135.1920.1040" timestamp="1641314915733" />
     <state x="2604" y="308" key="git4idea.merge.GitPullDialog" timestamp="1639754225823">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

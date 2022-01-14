@@ -18,9 +18,7 @@ public class Recette {
         this.categorie = categorie;
         this.etapes = etapes;
     }
-    public Recette(){
-
-    }
+   public Recette(){}
 
     public String getNom() {
         return nom;
@@ -38,12 +36,20 @@ public class Recette {
         this.auteur = auteur;
     }
 
-    public Collection<Ingredient> getIngredients() {
+    public LinkedList<Ingredient> getIngredients() {
         return ingredients;
     }
 
     public void setIngredients(LinkedList<Ingredient> ingredients) {
         this.ingredients = ingredients;
+    }
+
+    public void addIngredient(Ingredient ingredient){
+        this.ingredients.add(ingredient);
+    }
+
+    public void addIngredient(Integer index, Ingredient ingredient){
+        this.ingredients.add(index,ingredient);
     }
 
     public Categorie getCategorie() {
@@ -62,6 +68,13 @@ public class Recette {
         this.etapes = etapes;
     }
 
+    public void addEtape(Etape etape ){
+        this.etapes.add(etape);
+    }
+    public void addEtape(Integer index, Etape etape){
+        this.etapes.add(index,etape);
+    }
+
     @Override
     public String toString() {
         return "Recette{" +
@@ -70,6 +83,6 @@ public class Recette {
                 ", ingrédients= " + ingredients +
                 ", catégorie= " + categorie +
                 ", étapes= " + etapes +
-                '}';
+                '}'+"\n";
     }
 }

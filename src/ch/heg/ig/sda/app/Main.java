@@ -8,10 +8,7 @@ package ch.heg.ig.sda.app;
 
 import ch.heg.ig.sda.app.business.*;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Main {
 
@@ -22,29 +19,30 @@ public class Main {
      */
 
     public static void main(String[] args) {
-        String filepath = "C:\\DEV\\EasyCook\\data\\EasyCook (1).csv";
 
-        IEasyCook app = new EasyCookList();
+       String filepath = "C:\\DEV\\EasyCook\\data\\EasyCook.csv";
 
+        IEasyCook app = new EasyCookMap();
+
+
+        System.out.println("Chargement des recettes ... ");
         app.loadRecipes(filepath);
+        System.out.println("Recettes chargées !");
         app.printRecipes();
-        System.out.println("recette chargée");
+        System.out.println("Toutes les catégories des recettes :");
         app.printCategories();
-        System.out.println("Toutes les catégories");
 
+        // Test recherche par catégorie
+        System.out.println("Test de recherche par catégorie");
+        Collection<Recette> tempCol = app.getRecetteByCategory("Plat");
+        System.out.println(tempCol.toString());
 
-        //Recherche
-        System.out.println("recette par personne");
-        Personne temp = new Personne("Zemmour","Eric");
-
-        Collection<Recette> tempColByName = app.getRecetteByPerson(temp);
-
-        System.out.println(tempColByName.toString());
-        /*Set<Recette>testSet = new HashSet<Recette>();
-        Collection<Recette> testColl = app.getRecette()
-        Ingredient testIngr = new Ingredient("tomates");
-        testCollection.contains(testIngr);*/
-
+        //Test Recherche par ingrédient
+        /*
+        System.out.println("Test de recherche par nom ");
+        Collection<Recette> tempCol = app.getRecetteByIngredient(new Ingredient("sucre"));
+        System.out.println(tempCol.toString());
+        */
 
     }
 }
